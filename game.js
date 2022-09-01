@@ -3,7 +3,7 @@ var buttonColors=["red", "blue", "green", "yellow"];
 var userClickedPattern = [];
 var started = false;
 var level = 0;
-$("body").keydown(function(){
+$("body").click(function(){
   if (!started) {
 
     nextSequence();
